@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <style></style>
+  </head>
+  <body>
+    <script id="wg_fwdg_48710_100_1613029270729">
+      (function (window, document) {
+        var loader = function () {
+          var arg = [
+            "s=48710",
+            "m=100",
+            "uid=wg_fwdg_48710_100_1613029270729",
+            "wj=knots",
+            "tj=c",
+            "waj=m",
+            "odh=0",
+            "doh=24",
+            "fhours=240",
+            "hrsm=2",
+            "vt=forecasts",
+            "lng=es",
+            "idbs=1",
+            "p=WINDSPD,GUST,SMER,TMP,TMPE,CDC,TCDC,APCP1s,RH,RATING",
+          ];
+          var script = document.createElement("script");
+          var tag = document.getElementsByTagName("script")[0];
+          script.src = "https://www.windguru.cz/js/widget.php?" + arg.join("&");
+          tag.parentNode.insertBefore(script, tag);
+        };
+        window.addEventListener
+          ? window.addEventListener("load", loader, false)
+          : window.attachEvent("onload", loader);
+      })(window, document);
+    </script>
+  </body>
+</html>
